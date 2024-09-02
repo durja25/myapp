@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
+import EmployeeValidator from './employeevalidator.jsx';
 import Hello from './hellow';
 import './index.css';
 import MyProps from './myprops.jsx';
@@ -13,7 +14,6 @@ import reportWebVitals from './reportWebVitals';
 import SimpleState from './simplestate.jsx';
 import SampleStateProps from './simplestateprop.jsx';
 import Student from './student.jsx';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // StrictMode is for object equivality
 // root is available in index.html
@@ -29,7 +29,8 @@ root.render(
     {/* <SampleStateProps /> */}
     {/* <Parentochild /> */}
     {/* <Parent /> */}
-    <ParentOfChild />
+    {/* <ParentOfChild /> */}
+    <EmployeeValidator />
   </React.StrictMode>
 );
 
